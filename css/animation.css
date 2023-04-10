@@ -1,0 +1,27 @@
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(140px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeBounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  40% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
